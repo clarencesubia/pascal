@@ -1,0 +1,5 @@
+argparse
+pan-os-python
+pyyaml
+xmltodict
+ipaddress
