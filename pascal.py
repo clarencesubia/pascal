@@ -4,6 +4,8 @@ import sys
 import argparse
 
 import seclist
+import health_check
+
 from credential_handler import credential_handler
 
 from panos.base import PanDevice
@@ -16,6 +18,7 @@ subparsers = parser.add_subparsers(metavar="command")
 subparsers.required = True
 
 seclist.create_parser(subparsers)
+health_check.create_parser(subparsers)
 
 args = parser.parse_args()
 
