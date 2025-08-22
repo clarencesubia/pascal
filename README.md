@@ -1,4 +1,4 @@
-# PASCAL
+# PASCAL Application
 
 ## Description
 Palo Alto NGFW Synthesis, Collection, Automation, and Logging.
