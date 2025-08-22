@@ -39,15 +39,15 @@ def ha_info(device):
 
 
 def interface(device):
-    pass
+    print("Under development...")
 
 
 def vpn(device):
-    pass
+    print("Under development...")
 
 
 def license(device):
-    pass
+    print("Under development...")
 
 
 def _excecute_health_check(device, args):
