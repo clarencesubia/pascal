@@ -1,7 +1,7 @@
 # PASCAL
 
 ## Description
-Palo Alto NGFW automation collection.
+Palo Alto NGFW Synthesis, Collection, Automation, and Logging.
 
 ## Install python packages
 ```
