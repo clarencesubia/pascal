@@ -25,7 +25,6 @@ routing_flags = {
     "M": "multicast",
 }
 
-
 def find_dest_routes(device, dest):
     print(f"[*] Finding routes to {dest}.\n")
 
