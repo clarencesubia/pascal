@@ -39,15 +39,15 @@ def ha_info(device):
 
 
 def interface(device):
-    pass
+    print("Under construction")
 
 
 def vpn(device):
-    pass
+    print("Under construction")
 
 
 def license(device):
-    pass
+    print("Under construction")
 
 
 def _excecute_health_check(device, args):
@@ -57,6 +57,12 @@ def _excecute_health_check(device, args):
         sys_info(device=device)
     elif args.target == "ha":
         ha_info(device=device)
+    elif args.target == "interface":
+        interface(device=device)
+    elif args.target == "vpn":
+        vpn(device=device)
+    elif args.target == "license":
+        license(device=device)
 
     elif args.target == "all":
         sys_info(device=device)
