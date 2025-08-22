@@ -1,10 +1,7 @@
 # PASCAL
 
-# Author
-Clarence R. Subia
-
 ## Description
-Palo Alto Synthesis, Collection, Automation, and Logging.
+Palo Alto NGFW automation collection.
 
 ## Install python packages
 ```
@@ -27,4 +24,7 @@ api_key: "<API KEY>"
 ```
 python3 pascal.py --firewall 192.168.227.100 --credentials credentials.yaml seclist check -s <SOURCE IP> -d <DESTINATION IP> --proto [tcp | udp] --port <DESTINATION PORT>
 ```
+
+# Author
+Clarence R. Subia
 
