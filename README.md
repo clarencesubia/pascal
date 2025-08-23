@@ -8,11 +8,6 @@ Palo Alto NGFW Synthesis, Collection, Automation, and Logging.
 pip3 install -r requirements.txt
 ```
 
-## Install pascal_app package locally
-```
-pip3 install -e .
-```
-
 ## Retrieve API key
 ```
 curl -Hk "Content-Type: application/x-www-form-urlencoded" -X POST https://<IP ADDRESS>/api/?type=keygen -d 'user=<USER>&password=<PASSWORD>'
@@ -36,5 +31,5 @@ python3 pascal.py --firewall 192.168.227.100 --credentials credentials.yaml secl
 ```
 
 # Author
-Clarence R. Subia
+[Clarence R. Subia](https://github.com/clarencesubia/)
 
